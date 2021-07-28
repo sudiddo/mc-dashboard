@@ -19,7 +19,7 @@ interface InfoCardType {
 
 function InfoCard({ type, data }: InfoCardType) {
   const [isClicked, setIsClicked] = useState(false);
-
+  const [isAnimated, setIsAnimated] = useState(false);
   let label: string = "";
   let icon: string = "";
   let icon2x: string = "";
@@ -60,16 +60,16 @@ function InfoCard({ type, data }: InfoCardType) {
       break;
   }
 
-  const toggleCard = () => {
-    setIsClicked(!isClicked);
-  };
-
   return (
     <button
-      onClick={toggleCard}
-      className={`${
-        isClicked ? "bg-purple" : "bg-white"
-      } rounded-3xl mr-7 min-w-280 min-h-150 flex p-5 flex-col shadow-lg my-5 focus:animate-flip `}
+      onClick={() => {
+        setIsClicked(!isClicked);
+        setIsAnimated(true);
+      }}
+      onAnimationEnd={() => setIsAnimated(false)}
+      className={`${isClicked ? "bg-purple" : "bg-white"} ${
+        isAnimated && 'animate-flip'
+      } rounded-3xl mr-7 max-w-280 min-w-280 min-h-150 flex p-5 flex-col shadow-lg my-5`}
     >
       {isClicked ? (
         <div>

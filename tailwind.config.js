@@ -37,6 +37,9 @@ module.exports = {
         150: "150px",
         240: "240px",
       },
+      maxWidth: {
+        280: "280px",
+      },
       colors: {
         gray: {
           darker: "#A3A3A3",
@@ -79,7 +82,7 @@ module.exports = {
         },
       },
       animation: {
-        flip: "flip 1s linear",
+        flip: "flip 1s ease-in-out",
       },
     },
   },
