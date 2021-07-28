@@ -63,12 +63,14 @@ function InfoCard({ type, data }: InfoCardType) {
   return (
     <button
       onClick={() => {
-        setIsClicked(!isClicked);
+        setTimeout(() => {
+          setIsClicked(!isClicked);
+        }, 500);
         setIsAnimated(true);
       }}
       onAnimationEnd={() => setIsAnimated(false)}
       className={`${isClicked ? "bg-purple" : "bg-white"} ${
-        isAnimated && 'animate-flip'
+        isAnimated && "animate-flip"
       } rounded-3xl mr-7 max-w-280 min-w-280 min-h-150 flex p-5 flex-col shadow-lg my-5`}
     >
       {isClicked ? (
