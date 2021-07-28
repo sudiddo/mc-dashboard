@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mc-dashboard/static/css/main.315c1403.chunk.css",
+    "main.js": "/mc-dashboard/static/js/main.d23d42ac.chunk.js",
+    "main.js.map": "/mc-dashboard/static/js/main.d23d42ac.chunk.js.map",
+    "runtime-main.js": "/mc-dashboard/static/js/runtime-main.c7f56906.js",
+    "runtime-main.js.map": "/mc-dashboard/static/js/runtime-main.c7f56906.js.map",
+    "static/js/2.ea2bcae1.chunk.js": "/mc-dashboard/static/js/2.ea2bcae1.chunk.js",
+    "static/js/2.ea2bcae1.chunk.js.map": "/mc-dashboard/static/js/2.ea2bcae1.chunk.js.map",
+    "static/js/3.be9fccb2.chunk.js": "/mc-dashboard/static/js/3.be9fccb2.chunk.js",
+    "static/js/3.be9fccb2.chunk.js.map": "/mc-dashboard/static/js/3.be9fccb2.chunk.js.map",
+    "index.html": "/mc-dashboard/index.html",
+    "static/css/main.315c1403.chunk.css.map": "/mc-dashboard/static/css/main.315c1403.chunk.css.map",
+    "static/js/2.ea2bcae1.chunk.js.LICENSE.txt": "/mc-dashboard/static/js/2.ea2bcae1.chunk.js.LICENSE.txt",
+    "static/media/Moonicon@2x.14932ea5.png": "/mc-dashboard/static/media/Moonicon@2x.14932ea5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7f56906.js",
+    "static/js/2.ea2bcae1.chunk.js",
+    "static/css/main.315c1403.chunk.css",
+    "static/js/main.d23d42ac.chunk.js"
+  ]
+}
