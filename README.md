@@ -1,6 +1,7 @@
 # Mooncoin Dashboard
 
 This repository dedicated for code test on MoonCoin.
+https://sudiddo.github.io/mc-dashboard/
 
 ## Plugins
 
